@@ -1,1 +1,510 @@
-Hello World!
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Alper Güngör's Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <style>
+table {
+border-collapse: collapse;
+}
+
+tr {
+border-bottom: 1pt solid black;
+}
+.paper {
+    font-size: 15px;
+  }
+</style>
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="index.html#projects">Selected Projects</a></li> 
+				  <li><a href="publications.html">Journals, Conferences, Patents</a></li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8">
+                
+                <!-- Main Image -->
+                <div class="col-md-5">
+
+                <!-- Main Image -->
+                <img class="img-responsive" src="photo.jpg" alt=""><br>
+              </div>
+                
+                <div style="margin-top:3%; text-align:justify;">
+            <p style="font-size: 20px;">I am a senior research scientist working on computational imaging, medical imaging, inverse problems, image reconstruction, machine learning and signal processing with a focus on physics-inspired algorithms. I have obtained my Ph.D. in Electrical and Electronics Engineering from Bilkent University, Turkiye. I was advised by Prof. <a href = "https://kilyos.ee.bilkent.edu.tr/~cukur/">Tolga Çukur</a> Before that, I earned my M.Sc. in Computer Science from Middle East Technical University under the supervision of Prof. <a href="https://vural.ceng.metu.edu.tr/">Fatoş T. Yarman-Vural</a>. I received my B.Sc. degree in Electrical and Electronics Engineering from Middle East Technical University.</p>
+            <p style="font-size: 20px;">
+                I have been working in the industry as a research scientist for over 9 years where I developed novel solutions for challenging problems in a diverse range of applications, resulting in 7 international patent applications, 16 high-impact journal publications, 1 book chapter, and over 40 proceedings in high-impact conferences. I am passionate about leveraging data-driven approaches to advance signal and image acquisition and processing techniques.
+            </p>
+
+					<p style="font-size: 20px;">I also serve as a consulting associate editor for the IEEE Open Journal of Signal Processing.</p>
+          
+          <h2 id="research_interests">Research Interests</h2>
+                
+          <ul>
+          <li class="paper">Medical Imaging, Computational Imaging, Inverse Problems, Explainable AI, Generative AI, Signal Processing, Deep Learning, Diffusion Models, Transformers, Image and Signal Reconstruction, Calibration, Compressed Sensing, Optimization, Parallel Computing.</li>
+          </ul>
+
+        
+                </div>
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Alper Güngör</b></div><br>
+                <p><b>alperg at ee.bilkent.edu.tr</b><br>
+                <p>Senior Research Scientist<br>
+                  Aselsan<br>
+                  Ankara, Turkey<br>
+                </p>
+            </div>
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href="https://scholar.google.com/citations?hl=en&user=8JZZclQAAAAJ">Google Scholar</a></dd> 
+              <dd><a href="https://www.linkedin.com/in/alper-g%C3%BCng%C3%B6r-ph-d-75723946/">LinkedIn</a></dd>
+            </div>
+            
+            
+            <!-- Publications -->
+                      
+            
+            <div class="col-md-8">    
+                <h2 id="projects">Recent & Selected Project Papers</h2>
+                
+        <table style="width:100%;border:0px;border-spacing:0px;margin-right:auto;margin-left:auto;"><tbody>    
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one", style="text-align: center;">
+                <img src="images/deq-mpi.jfif" width="320" >
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://ieeexplore.ieee.org/document/10198492">
+                <papertitle>DEQ-MPI: A Deep Equilibrium Reconstruction with Learned Consistency for Magnetic Particle Imaging
+                </papertitle>
+              </a>
+              <br>
+              <br>
+              <strong>A. Güngör</strong>, B. Askin, D. A. Soydan, E. U. Saritas, C. B. Top and T. Çukur
+              <br>
+              <em>IEEE Transactions on Medical Imaging</em>, 2023.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">DEQ-MPI is the first deep equilibrium model with learned data consistency in the literature. In contrast to unrolling-based methods, DEQ-MPI computes a convergent solution while avoiding memory constraints via implicit differentiation, and it uses a learned consistency measure to better account for correlations in the data distribution. With these advances, we provide demonstrations for SOTA physics-driven image reconstruction in magnetic particle imaging (MPI).</p>
+              <a href="https://github.com/icon-lab/deq-mpi">
+                  <papertitle>[Code]</papertitle>
+                </a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one", style="text-align: center;">
+                <img src="images/adadiff.jfif" width="250" >
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://www.sciencedirect.com/science/article/pii/S1361841523001329?casa_token=O4pLsMiYHywAAAAA:_1-z2WtMmkiurbKj03RAiNQIRMT8hG5Q296aD7Lp2--nrKX-5sqMlwwYrmd_cysm6UPEdYvdUg">
+                <papertitle>Adaptive Diffusion Priors for Accelerated MRI Reconstruction</papertitle>
+              </a>
+              <br>
+              <br>
+              <strong>A. Güngör</strong>, SUH Dar, Ş Öztürk, Y Korkmaz, G Elmas, M Özbey, T Çukur
+              <br>
+              <em>Medical Image Analysis</em>, 2023.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">Diffusion models promise enhanced sample quality and diversity in MRI reconstruction. However, current diffusion methods use static priors that are frozen for inference on the test set. Here, we introduce an adaptive diffusion prior that is optimized during inference to ensure conformity to the distribution of test data. As a result, AdaDiff outperforms SOTA physics-driven unrolled methods and diffusion probabilistic models in terms of image quality and generalization.</p>
+              <a href="https://github.com/icon-lab/AdaDiff">
+                  <papertitle>[Code]</papertitle>
+                </a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one", style="text-align: center;">
+                <img src="images/syndiff.jfif" width="250" >
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://ieeexplore.ieee.org/document/10167641">
+                <papertitle>Unsupervised Medical Image Translation with Adversarial Diffusion Models</papertitle>
+              </a>
+              <br>
+              <br>
+              M Özbey, SUH Dar, HA Bedel, O Dalmaz, Ş Özturk, <strong>A. Güngör</strong>, T Çukur
+              <br>
+              <em>IEEE Transactions on Medical Imaging</em>, 2023.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">Generative adversarial networks (GANs) have become the gold-standard in medical image synthesis, yet GANs often suffer from poor stability and limited representational diversity. Here, we introduce a novel adversarial diffusion model for medical image translation that improves sample fidelity and diversity, without the prohibitive computational burden of conventional diffusion probabilistic models such as DDPM.</p>
+              <a href="https://github.com/icon-lab/SynDiff">
+                  <papertitle>[Code]</papertitle>
+                </a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one", style="text-align: center;">
+                <img src="images/calibFPA.png" width="320" ><br/><br/>
+                <img src="images/calibFPA2.png" width="200" >
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://arxiv.org/abs/2309.11421">
+                <papertitle>CalibFPA: A Focal Plane Array Imaging System based on Online Deep-Learning Calibration
+                </papertitle>
+              </a>
+              <br>
+              <br>
+              <strong>A. Güngör</strong>, M.U. Bahçeci, Y. Ergen, A. Sözak, O. Ö. Ekiz, T. Yelboğa, T. Çukur
+              <br>
+              <em>Arxiv Preprint</em>, arXiv:2309.11421.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">Compressive focal plane arrays enable cost-effective high-resolution (HR) imaging by acquisition of several multiplexed measurements on a low-resolution sensor. For practical implementation, system non-idealities such as optical aberrations are captured in an offline and time-consuming manner. In this study, we propose a novel compressive FPA system based on online deep-learning calibration of multiplexed LR measurements (CalibFPA).</p>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one", style="text-align: center;">
+                <img src="images/fdb.jfif" width="250" >
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://arxiv.org/abs/2308.01096">
+                <papertitle>Learning Fourier-Constrained Diffusion Bridges for MRI Reconstruction
+                </papertitle>
+              </a>
+              <br>
+              <br>
+              M. U. Mirza, O. Dalmaz, H. A. Bedel, G. Elmas, Y. Korkmaz, <strong>A. Güngör</strong>, S. UH Dar, T. Çukur
+              <br>
+              <em>Arxiv Preprint</em>, arXiv:2308.01096.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">Conventional diffusion models are trained to transform Gaussian noise onto the data distribution, and this normality assumption causes divergence between the learned and desired transformations in inverse problems. To address this fundamental limitation, here we introduce a Fourier-constrained diffusion bridge (FDB) that learns to transform directly between undersampled and fully-sampled data via a generalized diffusion process.</p>
+              <a href="https://github.com/icon-lab/FDB">
+                  <papertitle>[Code]</papertitle>
+                </a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one", style="text-align: center;">
+                <img src="images/csdoa.gif" width="320" >
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://ieeexplore.ieee.org/document/9903565">
+                <papertitle>Adaptive Measurement Matrix Design in Direction of Arrival Estimation
+                </papertitle>
+              </a>
+              <br>
+              <br>
+              B. Kilic, <strong>A. Güngör</strong>, M. Kalfa, O. Arikan
+              <br>
+              <em>IEEE Transactions on Signal Processing</em>, 2022.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">We propose a novel measurement matrix design methodology for direction of arrival estimation that adapts to the prior probability distribution on the source scene, and we compare its performance over alternative approaches using both on-grid and gridless reconstruction methods. The proposed technique is derived in closed-form and shown to provide improved compression rates compared to the state-of-the-art.</p>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <img src="https://raw.githubusercontent.com/icon-lab/PP-MPI/main/inferenceOut_ax1.png" width="320">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://link.springer.com/chapter/10.1007/978-3-031-17247-2_11">
+                <papertitle>PP-MPI: A Deep Plug-and-Play Prior for Magnetic Particle Imaging Reconstruction</papertitle>
+              </a>
+              <br>
+              <br>
+               B. Askin, <strong>A. Güngör</strong>, D. A. Soydan, E. U. Saritas, C. B. Top, T. Çukur
+              <br>
+              <em>Machine Learning for Medical Image Reconstruction (MLMIR 2022) Workshop, hosted by 25th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</em>, 2022.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">PP-MPI is an ADMM-based reconstruction algorithm with a deep plug-and-play denoiser for 2D and 3D MPI. Besides its high-quality reconstruction performance, data-driven denoiser enables fast convergence of the algorithm.</p>
+              <a href="https://github.com/icon-lab/pp-mpi">
+                  <papertitle>[Code]</papertitle>
+                </a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <img src="images/transms.jfif" width="320">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://ieeexplore.ieee.org/document/9825706">
+                <papertitle>TranSMS: Transformers for Super-Resolution Calibration in Magnetic Particle Imaging</papertitle>
+              </a>
+              <br>
+              <br>
+               <strong>A. Güngör</strong>, B. Askin, D. A. Soydan, E. U. Saritas, C. B. Top, T. Çukur
+              <br>
+              <em>IEEE Transactions on Medical Imaging</em>, 2022.
+              <br>
+              <br/>
+              <p style="text-align: justify;">TranSMS is a model-based transformer architecture that super-resolves system matrix rows for accelerated MPI calibration, while maintaining fidelity to the physical signal model for reliable generalization.</p>
+              <a href="https://github.com/icon-lab/transms">
+                  <papertitle>[Code]</papertitle>
+                </a>
+              <p></p>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one", style="text-align: center;">
+                <img src="images/cssar.gif" width="250" >
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://ieeexplore.ieee.org/document/9738485">
+                <papertitle>Compressive Synthetic Aperture Radar Imaging and Autofocusing by Augmented Lagrangian Methods</papertitle>
+              </a>
+              <br>
+              <br>
+              <strong>A. Güngör</strong>, M. Çetin and H. E. Güven
+              <br>
+              <em>IEEE Transactions on Computational Imaging</em>, 2022.
+              <br/>
+              <br/>
+              <p style="text-align: justify;">Here, we propose an image reconstruction technique that jointly estimates both the phase errors and the underlying image simulatenously for undersampled synthetic aperture radar imaging in the presence of phase errors. Our method provides significant improvements in terms of image reconstruction quality and computation speed, as well as phase error estimation performance.</p>
+              <p></p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                  <img src="images/simitcs.jpg" width="320">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+              <a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4247">
+                <papertitle>Simultaneous use of individual and joint regularization terms in compressive sensing: Joint reconstruction of multi-channel multi-contrast MRI acquisitions</papertitle>
+              </a>
+              <br>
+              <br>
+              E Kopanoglu, <strong>A. Güngör</strong>, T Kilic, EU Saritas, KK Oguz, T Çukur, HE Güven
+              <br>
+              <em>NMR in Biomedicine</em>, 2020.
+              <br>
+              <br/>
+              <p style="text-align: justify;">Multi-contrast images are commonly acquired together to maximize complementary diagnostic information, albeit at the expense of longer scan times. SIMIT-CS utilizes a time-efficient strategy to acquire high-quality multi-contrast images and then reconstruct undersampled data with joint regularization terms that leverage common information across contrasts.</p>
+              <a href="https://github.com/icon-lab/transms">
+                  <papertitle>[Code]</papertitle>
+                </a>
+              <p></p>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id="nerf_image"><video width="100%" height="100%" muted="" autoplay="" loop="">
+                <source src="images/football_recon.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/8969447">
+                <papertitle>Real-time Compressive Video Reconstruction for Spatial Multiplexing Cameras
+</papertitle>
+              </a>
+              <br>
+              <br>
+               O.F. Kar, <strong>A. Gungor</strong>, H.E. Guven
+              <br>
+              <em>IEEE GLOBALSIP</em>, 2019
+              <br>
+              <a href="https://github.com/vfpaadmm/V-FPA-ADMM">
+                  <papertitle>[Visuals]</papertitle>
+                </a>
+              <br>
+              <p></p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="width: 321px; display: table;">
+                <img src="images/GS1.png" width="160">
+                  <img src="images/GS2.png" width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/8969255">
+                <papertitle>Learning-based Regularization for Spatial Multiplexing Cameras</papertitle>
+              </a>
+              <br>
+              O.F. Kar, <strong>A. Gungor</strong>, H.E. Guven
+              <br>
+              <em>IEEE GLOBALSIP</em>, 2019
+              <br>
+              <p></p>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="display: table;">
+                <img src="images/IC1.png" width="160">
+                  <img src="images/IC2.png" width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/8803162">
+                <papertitle>A Transform Learning-based Deconvolution Technique with Super-resolution and Microscanning Applications</papertitle>
+              </a>
+              <br>
+              <strong>A. Gungor</strong>, O.F. Kar</strong>
+              <br>
+              <em>IEEE ICIP</em>, 2019
+              <br>
+              <p></p>
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="display: table;">
+                <img src="images/IC18_1.png" width="160">
+                <img src="images/IC18_2.png" width="160">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/8451675/">
+                <papertitle>A Matrix-free Reconstruction Method for Compressive Focal Plane Array Imaging</papertitle>
+              </a>
+              <br>
+              <strong>A. Gungor</strong>, O.F. Kar, H.E. Guven
+              <br>
+              <em>IEEE ICIP</em>, 2018
+              <br>
+              <p></p>
+            </td>
+          </tr>
+          
+		    
+        </tbody></table> 
+          
+
+            
+        </div>
+
+        <div class="col-md-8" style="height: 100vh;">    
+          <br/>
+          <strong style="font-size: 25px;">Awards:</strong><br/>
+          <ul>
+            <li class="paper">IEEE Transactions on Medical Imaging Distinguished Reviewer Award – 2023.</li>
+            <li class="paper">IEEE Signal Processing and Communications Applications Conference, 2nd place in Alper Atalay Best Student Paper Award – 2023.</li>
+            <li class="paper">3rd place in Aselsan Capture the Flag Hacking Contest – 2023.</li>
+            <li class="paper">NATO SET Panel Excellence Award – 2022.</li>
+            <li class="paper">Finalist for EMBC Student Paper Competition – 2021.</li>
+            <li class="paper">IEEE Signal Processing Society Turkey Best Paper Award – 2021.</li>
+            <li class="paper">NATO SET Panel Excellence Award – 2020.</li>
+            <li class="paper">IEEE Signal Processing Society Travel Grant to Taipei, Taiwan – 2019.</li>
+            <li class="paper">National Scholarship Programme from Scientific and Technological Research Council of Turkey (TUBITAK) for Ph.D. education.</li>
+            <li class="paper">2015-2016 METU Graduate Courses Performance Award.</li>
+            <li class="paper">National Scholarship Programme from Scientific and Technological Research Council of Turkey (TUBITAK) for M.Sc. education.</li>
+            <li class="paper">The Best Design Award in 2013 TÜBİTAK Formula G Solar Car Races.</li>
+            <li class="paper">3rd place in 2011 TÜBİTAK Formula G Solar Car Races.</li>
+            <li class="paper">1st place in 2011 METU IEEE Computer Society Capture The Flag Hacking Contest.</li>
+            <li class="paper">2010-2011 and 2013-2014 Bülent Kerim Altay Prize.</li>
+          </ul>
+
+          <strong style="font-size: 25px;">Academic Activities:</strong><br/>
+          <ul>
+            <li class="paper">Reviewer for journals including; IEEE Transactions on Image Processing, IEEE Transactions on Computational Imaging, IEEE Transactions on Medical Imaging, IET Signal Processing, Elsevier Digital Signal Processing, Nature Scientific Reports, IEEE Transactions on Geoscience and Remote Sensing, Springer Signal, Image and Video Processing.</li>
+            <li class="paper">Consulting Associate Editor for IEEE Open Journal of Signal Processing.</li>
+          </ul>
+        </div>
+    
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+
+</html>

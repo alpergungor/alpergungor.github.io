@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Alper Güngör's Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<style>
+  .paper {
+    font-size: 15px;
+  }
+
+ul {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section,".") ". ";
+}
+
+
+</style>
+
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="index.html#projects">Selected Projects</a></li> 
+				  <li><a href="publications.html">Journals, Conferences, Patents</a></li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 70vh;">
+                <h2 id="projects">Journals, Conferences, Patents</h2>
+                
+                <strong style="font-size: 25px;">Book Chapter:</strong><br/>
+                <ul>
+                <li class="paper"><a href="#">Sparse Arrays for Radar, Sonar, and Communications: Optimization and Learning-based Methods for Radar Imaging with Sparse and Limited Apertures</a>; Ammar Saleem, <strong>Alper Güngör</strong>, M. Burak Alver, Emre Güven, Müjdat Çetin, IEEE Press-Wiley, Dec. 2023</li>
+                </ul>
+                
+                <strong style="font-size: 25px;">Journals:</strong><br/>
+                <ul>
+                  <li class="paper"><strong>[Preprint]</strong> <a target="_blank" href="https://arxiv.org/abs/2309.11421">CalibFPA: A Focal Plane Array Imaging System based on Online Deep-Learning Calibration</a>; <strong>A. Güngör</strong>, M.U. Bahçeci, Y. Ergen, A. Sözak, O. Ö. Ekiz, T. Yelboğa, T. Çukur, arXiv preprint arXiv:2309.11421</li>
+                  <li class="paper"><strong>[Preprint]</strong> <a target="_blank" href="https://github.com/icon-lab/FDB" style=" font-weight: bold;">[Code]</a> <a target="_blank" href="https://arxiv.org/abs/2308.01096">Learning Fourier-Constrained Diffusion Bridges for MRI Reconstruction</a>; M. U. Mirza, O. Dalmaz, H. A. Bedel, G. Elmas, Y. Korkmaz, <strong>A. Güngör</strong>, S. UH Dar, T. Çukur, arXiv preprint arXiv:2308.01096. </li>
+                  <li class="paper"><a target="_blank" href="https://github.com/icon-lab/deq-mpi" style=" font-weight: bold;">[Code]</a> <a target="_blank" href="https://ieeexplore.ieee.org/document/10198492">DEQ-MPI: A Deep Equilibrium Reconstruction with Learned Consistency for Magnetic Particle Imaging</a>; <strong>A. Güngör</strong>, B. Askin, D. A. Soydan, E. U. Saritas, C. B. Top and T. Çukur, in IEEE Transactions on Medical Imaging (2023). </li>
+                  <li class="paper"><a target="_blank" href="https://github.com/icon-lab/AdaDiff" style=" font-weight: bold;">[Code]</a> <a href="https://www.sciencedirect.com/science/article/pii/S1361841523001329?casa_token=O4pLsMiYHywAAAAA:_1-z2WtMmkiurbKj03RAiNQIRMT8hG5Q296aD7Lp2--nrKX-5sqMlwwYrmd_cysm6UPEdYvdUg">Adaptive Diffusion Priors for Accelerated MRI Reconstruction</a>; <strong>A. Güngör</strong>, SUH Dar, Ş Öztürk, Y Korkmaz, G Elmas, M Özbey, T Çukur, Medical Image Analysis (2023): 102872. </li>
+                  <li class="paper"><a target="_blank" href="https://github.com/icon-lab/SynDiff" style=" font-weight: bold;">[Code]</a> <a href="https://ieeexplore.ieee.org/document/10167641">Unsupervised Medical Image Translation with Adversarial Diffusion Models</a>; M Özbey, SUH Dar, HA Bedel, O Dalmaz, Ş Özturk, <strong>A. Güngör</strong>, T Çukur, in IEEE Transactions on Medical Imaging. </li>
+                  
+                  <li class="paper"><a href="https://ieeexplore.ieee.org/document/9903565">Adaptive Measurement Matrix Design in Direction of Arrival Estimation</a>; B. Kilic, <strong>A. Güngör</strong>, M. Kalfa, O. Arıkan, in IEEE Transactions on Signal Processing vol. 70, pp. 4742-4756, 2022.</li>
+                  <li class="paper"><a href="https://ieeexplore.ieee.org/document/9908308">A Thermal and Electro-magnetic Hybrid MOEMS Microscanner with Integrated Spatial Light Modulation and Metalens for Resolution Enhancement of Infrared Imaging Systems</a>; A. Sözak, E. Şimşek, T. Yelboğa, <strong>A. Güngör</strong>, F. Balli, K. Azgın, in IEEE Sensors.</li>
+                  <li class="paper"><a href="https://link.springer.com/article/10.1007/s11760-022-02365-2">Inverse Radon Transform based Reconstruction with with an Open-Sided Magnetic Particle Imaging Prototype</a>; B. Kilic, D.A. Soydan, <strong>A. Güngör</strong>, C.B. Top, in Signal, Image, and Video Processing.</li>
+                  <li class="paper"><a target="_blank" href="https://github.com/icon-lab/transms" style=" font-weight: bold;">[Code]</a> <a href="https://ieeexplore.ieee.org/document/9825706">TranSMS: Transformers for Super-Resolution Calibration in Magnetic Particle Imaging</a>; <strong>A. Güngör</strong>, B. Askin, D. A. Soydan, E. U. Saritas, C. B. Top and T. Çukur in IEEE Transactions on Medical Imaging, 2022. </li>
+                  <li class="paper"><a href="https://ieeexplore.ieee.org/document/9738485">Compressive Synthetic Aperture Radar Imaging and Autofocusing by Augmented Lagrangian Methods</a>; <strong>A. Güngör</strong>, M. Çetin and H. E. Güven in IEEE Transactions on Computational Imaging, vol. 8, pp. 273-285, 2022.</li>
+                  <li class="paper"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6490">Efficient heterogeneous parallel programming for compressed sensing based direction of arrival estimation</a>; A. Fisne, B. Kilic, <strong>A. Güngör</strong>, A. Ozsoy in Concurrency Computat Pract Exper. 2022; 34( 9):e6490.</li>
+                  <li class="paper"><a href="https://ieeexplore.ieee.org/document/9157941">Tomographic Field Free Line Magnetic Particle Imaging With an Open-Sided Scanner Configuration</a>; C. B. Top and <strong>A. Güngör</strong> in IEEE Transactions on Medical Imaging, vol. 39, no. 12, pp. 4164-4173, Dec. 2020.</li>
+                  <li class="paper"><a href="https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/nbm.4247">Simultaneous use of individual and joint regularization terms in compressive sensing: Joint reconstruction of multi-channel multi-contrast MRI acquisitions</a>; E Kopanoglu, A Güngör, T Kilic, EU Saritas, KK Oguz, T Çukur, HE Güven in NMR in Biomedicine. 2020; 33:e4247.</li>
+                  <li class="paper"><a href="https://aapm.onlinelibrary.wiley.com/doi/10.1002/mp.13411">Trajectory analysis for field free line magnetic particle imaging</a>; C.B. Top, <strong>A. Güngör</strong>, S. Ilbey, H.E. Güven in Med. Phys. 46: 1592-1607, 2019.</li>
+                  <li class="paper"><a href="https://ieeexplore.ieee.org/document/8630849">Fast System Calibration With Coded Calibration Scenes for Magnetic Particle Imaging</a>; S. Ilbey, C. B. Top, <strong>A. Güngör</strong>, T. Çukur, E. U. Saritas and H. E. Güven in IEEE Transactions on Medical Imaging, vol. 38, no. 9, pp. 2070-2080, Sept. 2019</li>
+                  <li class="paper"><a href="https://ieeexplore.ieee.org/document/8611186/">Statistically Segregated k-Space Sampling for Accelerating Multiple-Acquisition MRI</a>; LK Senel, T Kilic, <strong>A. Güngör</strong>, E Kopanoglu, HE Guven, EU Saritas, A Koc, T. Çukur in IEEE Transactions on Medical Imaging, vol. 38, no. 7, pp. 1701-1714, July 2019.</li>
+                  <li class="paper"><a href="https://www.journal.iwmpi.org/index.php/iwmpi/article/view/81">Comparison of system-matrix-based and projection-based reconstructions for field free line magnetic particle imaging</a>; S Ilbey, CB Top, <strong>A. Güngör</strong>, T Çukur, EÜ Sarıtaş, HE Güven in International Journal on Magnetic Particle Imaging, vol. 3, no. 1, 2017.</li>
+                  <li class="paper"><a href="https://ieeexplore.ieee.org/document/7490374">An Augmented Lagrangian Method for Complex-Valued Compressed SAR Imaging</a>; H. E. Güven, <strong>A. Güngör</strong> and M. Çetin in IEEE Transactions on Computational Imaging, vol. 2, no. 3, pp. 235-250, Sept. 2016, doi: 10.1109/TCI.2016.2580498.</li>
+                </ul>
+
+                <strong style="font-size: 25px;">Patents:</strong><br/>
+                <ul>
+                  <li class="paper">An accelerated antenna characterization technique; <strong>A. Güngör</strong>, B. A. Yılmaz, C. Bayram, C. B. Top
+                  <ul><li>Filing Date: 30.12.2022.</li></ul></li>
+                  <li class="paper">A calibration technique for compressive sensing-based camera; <strong>A. Güngör</strong>, M. U. Bahceci, T. Cukur<ul><li>Filing Date: 30.11.2022.</li></ul></li>
+                  <li class="paper">A compressed sensing based adaptive direction-of-arrival estimation system for moving targets; B. Kilic, <strong>A. Güngör</strong>, M. Kalfa, O. Arikan<ul><li>Filing Date: 04.05.2021.</li><li><strong>Granted on 24.02.2022</strong>.</li></ul></li>
+                  <li class="paper">Simultaneous use of joint and individual information terms in multicontrast compressive sensing reconstruction; E. Kopanoglu, <strong>A. Güngör</strong>, T. Çukur, H. E. Güven<ul><li>Filing Date: 16.10.2020.</li><li><strong>Granted on 31.01.2023</strong>.</li></ul></li>
+                  <li class="paper">A Super-resolving Calibration Method for Magnetic Particle Imaging; <strong>A. Güngör</strong><ul><li>Filing Date: 06.10.2020.</li><li><strong>Granted on 21.06.2022</strong>.</li></ul></li>
+                  <li class="paper">Method for electronic calibration of magnetic particle imaging system; CB Top, S Ilbey, <strong>A. Güngör</strong>, HE Guven<ul><li>Filing Date: 11.12.2018.</li><li><strong>Granted on 04.05.2022</strong>.</li></ul></li>
+                  <li class="paper">Method of calibrating magnetic particle imaging system; CB Top, S Ilbey, <strong>A. Güngör</strong>, HE Guven, T Cukur, EÜ Saritas<ul><li>Filing Date: 11.05.2018.</li><li><strong>Granted on 09.12.2022.</strong></li></ul></li>
+                </ul>
+
+
+                <strong style="font-size: 25px;">Conference Proceedings:</strong><br/>
+                <ul>
+                  <li class="paper">"Deep Learning Reconstruction for Single Pixel Imaging with Generative Adversarial Networks," B. Güven, <strong>A. Güngör</strong>, M. U. Bahçeci and T. Cukur, 2023 IEEE International Conference on Image Processing.</li>
+                  <li class="paper">"A Denoiser Scaling Technique for Plug-and-Play MPI Reconstruction," <strong>A. Güngör</strong>, B. Askin, D. A. Soydan, C. Barış Top and T. Cukur, 2023 International Workshop on Magnetic Particle Imaging (IWMPI).</li>
+                  <li class="paper">"3D Trajectory Analysis for Tomographic Field Free Line Magnetic Particle Imaging," D. A. Soydan, S. Karaca, <strong>A. Güngör</strong>, C. B. Top, 2023 International Workshop on Magnetic Particle Imaging (IWMPI).</li>
+                  <li class="paper">"Adaptive Transmit Beam Pattern Design for Compressed Sensing-based Direction of Arrival Estimation," M. U. Bahçeci, <strong>A. Güngör</strong> and Ç. Çetintepe, 2022 IEEE International Symposium on Phased Array Systems & Technology (PAST), Waltham, MA, USA, 2022, pp. 01-08, doi: 10.1109/PAST49659.2022.9974981.</li>
+                  <li class="paper">"Hardware-Efficient Direction of Arrival Estimation using Compressive Sensing," <strong>A. Güngör</strong>, B. Kiliç, 2022 IEEE International Symposium on Phased Array System & Technology (PAST), 2022.</li>
+                  <li class="paper">"Adversarial Diffusion Models for Unsupervised Medical Image Synthesis," M Özbey, SUH Dar, HA Bedel, O Dalmaz, Ş Özturk, <strong>A. Güngör</strong>, T Çukur, NeurIPS Medical Imaging Meets 2022 (oral).</li>
+                  <li class="paper">"PP-MPI: A Deep Plug-and-Play Prior for Magnetic Particle Imaging Reconstruction," B. Askin, <strong>A. Güngör</strong>, D. A. Soydan, E. U. Saritas, C. B. Top and T. Çukur, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2022.</li>
+                  <li class="paper">"Deep Learned Super Resolution of System Matrices for Magnetic Particle Imaging," <strong>A. Güngör</strong>, B. Askin, D. A. Soydan, C. Barış Top and T. Cukur, 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), Mexico, 2021, pp. 3749-3752, doi: 10.1109/EMBC46164.2021.9630601.</li>
+                  <li class="paper">"A Simulation Study for Three Dimensional Tomographic Field Free Line Magnetic Particle Imaging," D. A. Soydan, <strong>A. Güngör</strong> and C. B. Top, 2021 43rd Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC), Mexico, 2021, pp. 3701-3704, doi: 10.1109/EMBC46164.2021.9631111.</li>
+                  <li class="paper">"A CNN Based Super-Resolution Technique for Magnetic Particle Imaging System Matrix," B. Aşkın, <strong>A. Güngör</strong>, D. A. Soydan, C. B. Top and T. Cukur, 2021 29th Signal Processing and Communications Applications Conference (SIU), Istanbul, Turkey, 2021, pp. 1-4, doi: 10.1109/SIU53274.2021.9477772.</li>
+                  <li class="paper">"A Comparison of Direction of Arrival Estimation Performance for Phased-MIMO Systems," M. U. Bahçeci, <strong>A. Güngör</strong>, Ç. Çetintepe and T. E. Tuncer, 2021 29th Signal Processing and Communications Applications Conference (SIU), Istanbul, Turkey, 2021, pp. 1-4, doi: 10.1109/SIU53274.2021.9477803.</li>
+                  <li class="paper">"Adaptive Measurement Matrix Design in Compressed Sensing Based Direction of Arrival Estimation," B. Kılıç, <strong>A. Güngör</strong>, M. Kalfa and O. Arıkan, 2020 28th European Signal Processing Conference (EUSIPCO), Amsterdam, Netherlands, 2021, pp. 1881-1885, doi: 10.23919/Eusipco47968.2020.9287679.</li>
+                  <li class="paper">"Sensing Matrix Design for Compressive Sensing Based Direction of Arrival Estimation," B. Kılıç, <strong>A. Güngör</strong>, M. Kalfa and O. Arıkan, 2020 28th Signal Processing and Communications Applications Conference (SIU), Gaziantep, Turkey, 2020, pp. 1-4, doi: 10.1109/SIU49456.2020.9302073.</li>
+                  <li class="paper">"Super-resolving reconstruction technique for MPI," <strong>A. Güngör</strong> and C. B. Top, 2020 International Workshop on Magnetic Particle Imaging (IWMPI), Digital.</li>
+                  <li class="paper">"Learning Based Regularization for Spatial Multiplexing Cameras," O. F. Kar, <strong>A. Güngör</strong> and H. E. Güven, 2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Ottawa, ON, Canada, 2019, pp. 1-5, doi: 10.1109/GlobalSIP45357.2019.8969255.</li>
+                  <li class="paper">"Real-time Compressive Video Reconstruction for Spatial Multiplexing Cameras," O. F. Kar, <strong>A. Güngör</strong> and H. E. Güven, 2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Ottawa, ON, Canada, 2019, pp. 1-5, doi: 10.1109/GlobalSIP45357.2019.8969447.</li>
+                  <li class="paper">"A Transform Learning Based Deconvolution Technique with Super-Resolution and Microscanning Applications," <strong>A. Güngör</strong> and O. F. Kar, 2019 IEEE International Conference on Image Processing (ICIP), 2019, pp. 2159-2163, doi: 10.1109/ICIP.2019.8803162.</li>
+                  <li class="paper">"Real-time Compressive Focal Plane Array Imaging," O. F. Kar, <strong>A. Güngör</strong> and H. E. Güven, Computational Optical Sensing and Imaging, OSA, 2019.</li>
+                  <li class="paper">"Compressive Focal Plane Array Imager Reconstruction Using Learning Based Regularization," O. F. Kar, <strong>A. Güngör</strong> and H. E. Güven, 2019 27th Signal Processing and Communications Applications Conference (SIU), Sivas, Turkey, 2019, pp. 1-4, doi: 10.1109/SIU.2019.8806369.</li>
+                  <li class="paper">"Multi-channel multi-contrast reconstructions via simultaneous use of individual and joint regularization terms," E. Kopanoglu, <strong>A. Güngör</strong>, T. Kilic, E. U. Saritas, K. K. Oğuz, T. Çukur and H.E. Guven, ISMRM 27th Annual Meeting & Exhibition SMRT 28th Annual Meeting, Canada.</li>
+                  <li class="paper">"A Performance Analysis on the Optimal Number of Measurements for Coded Compressive Imaging," O. F. Kar, <strong>A. Güngör</strong>, S. Ilbey, C. B. Top and H. Emre Güven, 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP), Anaheim, CA, USA, 2018, pp. 101-105, doi: 10.1109/GlobalSIP.2018.8646522.</li>
+                  <li class="paper">"A Matrix-Free Reconstruction Method for Compressive Focal Plane Array Imaging," <strong>A. Güngör</strong>, O. F. Kar and H. E. Güven, 2018 25th IEEE International Conference on Image Processing (ICIP), 2018, pp. 1827-1831, doi: 10.1109/ICIP.2018.8451675.</li>
+                  <li class="paper">"An overview of joint activities on computational imaging and compressive sensing systems by NATO SET-232," T. Du Bosq, S. Agarwal, J. Dijk, A. Gungor, H. E. Guven, T. Haran, M. Laurenzis, K. Leonard, A. Mahalanobis, G. Paunescu, J. Piper, E. Repasi, Y. Sheng, SPIE Defense and Commercial Sensing 2018, Florida, USA.</li>
+                  <li class="paper">"An efficient parallel algorithm for single-pixel and FPA imaging," O.F. Kar, <strong>A. Güngör</strong> and H. E. Güven, SPIE Defense and Commercial Sensing 2018, Florida, USA.</li>
+                  <li class="paper">"Real-time three-dimensional image reconstruction using alternating direction method of multipliers for magnetic particle imaging," S. İlbey, <strong>A. Güngör</strong>, C. B. Top, E. Ü. Sarıtaş and H. E. Güven, 2018 26th Signal Processing and Communications Applications Conference (SIU), Izmir, Turkey, 2018, pp. 1-4, doi: 10.1109/SIU.2018.8404389.</li>
+                  <li class="paper">"An adaptive relaxed Alternating Direction Method of Multipliers for compressive focal plane array imaging," O. F. Kar, <strong>A. Güngör</strong> and H. E. Güven, 2018 26th Signal Processing and Communications Applications Conference (SIU), Izmir, Turkey, 2018, pp. 1-4, doi: 10.1109/SIU.2018.8404272.</li>
+                  <li class="paper">"Coded scenes for fast system calibration in magnetic particle imaging," S. Ilbey, C. B. Top, <strong>A. Güngör</strong>, E. U. Saritas and E. Güven, 2018 IEEE 15th International Symposium on Biomedical Imaging (ISBI 2018), Washington, DC, USA, 2018, pp. 315-318, doi: 10.1109/ISBI.2018.8363582.</li>
+                  <li class="paper">"Compressive sensing reconstruction for multi-contrast data with unequal acceleration rates," E. Kopanoglu, <strong>A. Güngör</strong>, T. Kilic, E. U. Saritas, T. Çukur and H.E. Guven, ISMRM 26th Annual Meeting & Exhibition SMRT 27th Annual Meeting, France.</li>
+                  <li class="paper">"Joint Dictionary Learning Reconstruction of Compressed Multi-Contrast Magnetic Resonance Imaging," A. Gungor, E. Kopanoglu, T. Cukur, E. Guven and F. T. Yarman-Vural, 2017 21st National Biomedical Engineering Meeting (BIYOMUT), Istanbul, Turkey, 2017, pp. i-iv, doi: 10.1109/BIYOMUT.2017.8478900.</li>
+                  <li class="paper">"Autofocused compressive SAR imaging based on the alternating direction method of multipliers," <strong>A. Güngör</strong>, M. Çetin and H. E. Güven, 2017 IEEE Radar Conference (RadarConf), 2017, pp. 1573-1576, doi: 10.1109/RADAR.2017.7944458.</li>
+                  <li class="paper">" Passive localization and classification of cavitation activity using group sparsity," C. B. Top, <strong>A. Güngör</strong> and H. E. Güven, The Journal of the Acoustical Society of America, 141, 3490 (2017).</li>
+                  <li class="paper">"Feature-enhanced computational infrared imaging," <strong>A. Güngör</strong> and H. E. Güven, SPIE Defense and Commercial Sensing 2017, California, USA.</li>
+                  <li class="paper">"An efficient algorithm for model based blind deconvolution,"; M. Bastopcu, <strong>A. Güngör</strong> and H. E. Güven, SPIE Defense and Commercial Sensing 2017, California, USA.</li>
+                  <li class="paper">"A synthesis-based approach to compressive multi-contrast magnetic resonance imaging," <strong>A. Güngör</strong>, E. Kopanoglu, T. Cukur and H. E. Güven, 2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI 2017), Melbourne, VIC, Australia, 2017, pp. 696-699, doi: 10.1109/ISBI.2017.7950615.</li>
+                  <li class="paper">" Fast recovery of compressed multi-contrast magnetic resonance images," <strong>A. Güngör</strong>, E. Kopanoğlu, T. Çukur and H. E. Güven, SPIE Medical Imaging 2017, Orlando, USA.</li>
+                  <li class="paper">"Joint reconstruction of multi-contrast images: compressive sensing reconstruction using both joint and individual regularization functions," E. Kopanoglu, <strong>A. Güngör</strong>, T. Kilic, E. U. Saritas, T. Çukur and H.E. Guven,  ISMRM 25th Annual Meeting & Exhibition SMRT 26th Annual Meeting, Honolulu, HI, USA, 22-27 April 2017.</li>
+                  <li class="paper">"Compressed Multi-Contrast Magnetic Resonance Image reconstruction using Augmented Lagrangian Method," <strong>A. Güngör</strong>, E. Kopanoğlu, T. Çukur and H. E. Güven, 2016 24th Signal Processing and Communication Application Conference (SIU), Zonguldak, Turkey, 2016, pp. 1985-1988, doi: 10.1109/SIU.2016.7496157.</li>
+                  <li class="paper">"An Augmented Lagrangian Method for image reconstruction with multiple features," H. E. Güven, <strong>A. Güngör</strong> and M. Çetin 2015 IEEE International Conference on Image Processing (ICIP), Quebec City, QC, Canada, 2015, pp. 4175-4179, doi: 10.1109/ICIP.2015.7351592.</li>
+                  <li class="paper"><strong>"An Augmented Lagrangian Method for autofocused Compressed SAR Imaging," A. Güngör</strong>, M. Çetin and H. E. Güven,  2015 3rd International Workshop on Compressed Sensing Theory and its Applications to Radar, Sonar and Remote Sensing (CoSeRa), Pisa, Italy, 2015, pp. 1-5, doi: 10.1109/CoSeRa.2015.7330252.</li>
+                  <li class="paper">" Designing a Robotic Flapping Wing Mechanism in Order to Mimic the Insect Flight," <strong>A. Güngör</strong>, T. Mutlu and D. F. Kurtuluş,  7th Ankara International Aerospace Conference, 2013.</li>
+                                  </ul>
+                                  <br/>
+                                  <br/>
+
+
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Alper Güngör</b></div><br>
+                <p><b>alperg at ee.bilkent.edu.tr</b><br>
+                <p>Senior Research Scientist<br>
+                  Aselsan<br>
+                  Ankara, Turkey<br>
+                </p>
+            </div>
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href="https://scholar.google.com/citations?hl=en&user=8JZZclQAAAAJ">Google Scholar</a></dd> 
+              <dd><a href="https://www.linkedin.com/in/alper-g%C3%BCng%C3%B6r-ph-d-75723946/">LinkedIn</a></dd>
+            </div>
+            
+            
+            <!-- Publications -->
+            <!--
+          -->
+
+            
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+    
+    <!-- Other people may like it too! -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+
+</html>
